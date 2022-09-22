@@ -2,7 +2,8 @@ import json
 class food:
     def __init__(self):
         self.file = "test.json"
-        # Unhide this below 3 lines code if you are running this program for the first time and again hide it when the new file is created.
+        # Hide this below 3 lines code after running this program once,
+        # So A file wil be created and the data will be stored and retrived everytime from it.
         self.lst1 = [{"Food_lst": [{"id": [], "food": [], "type": [], "price": []}]}]
         with open(self.file, mode='w') as w:
             json.dump(self.lst1, w)
