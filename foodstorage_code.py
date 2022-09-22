@@ -137,6 +137,7 @@ class food1(food):
                 ch = int(input("1.ADD FOOD\n2.Update FOOD\n3.Delete Food\n4.Show Food List\n5.Show Food By Id\n6.Show Food by name\n7.Show Food by Type\n8.Sort Food List by name\n9.Sort Food List by Price\nEnter your Choice: "))
             except ValueError:
                 print("\nChoose only digits from the given options(1 to 9)")
+                print("\nPlease Follow Our Instructions!")
                 continue
             else:
                 if ch == 1:
